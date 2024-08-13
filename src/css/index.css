@@ -50,7 +50,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: var(--margin-button);
+    background-color: var(--surface-color);
 }
 
 header .nav-itens {
@@ -91,6 +91,17 @@ main{
     align-items: center;
     padding: 0 80px;
     justify-content: space-between;
+    margin-bottom: var(--margin-button);
+    background-color: var(--surface-color);
+}
+
+section{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    justify-items: center;
+    padding: 0 80px;
+    row-gap: 24px;
+    margin-bottom: var(--margin-button);
 }
 
 .descrition-user{
