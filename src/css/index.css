@@ -33,8 +33,10 @@ h1{
     margin-bottom: 8px;
 }
 
-.paragraph-md{
-    font: normal 400 .875em var(--font) var(--text-color-secondary);
+.paragraph-md,
+a{
+    font: normal 400 .875em var(--font);
+    color: var(--text-color-secondary);
 }
 
 .paragraph-sm{
