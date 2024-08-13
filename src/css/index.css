@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-:root{
+:root {
     --brand-color: #EF5F4C;
     --background-color: #FFFFFF;
     --surface-color: #F5F5F5;
@@ -16,9 +16,99 @@
     --gap: 24px;
 }
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     line-height: var(--line-height);
+    text-decoration: none;
+    list-style: none;
+    font-family: var(--font);
+}
+
+h1{
+    font: normal 800 2em var(--font);
+    color: var(--text-color-primary);
+    margin-bottom: 8px;
+}
+
+.paragraph-md{
+    font: normal 400 .875em var(--font) var(--text-color-secondary);
+}
+
+.paragraph-sm{
+    font: normal 400 .74em var(--font);
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+header {
+    height: 80px;
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--margin-button);
+}
+
+header .nav-itens {
+    display: flex;
+    align-items: center;
+    gap: var(--gap);
+}
+
+header .nav-itens a {
+    color: var(--text-color-secondary);
+    font-weight: 500;
+}
+
+header>.nav-itens>img{
+    height: 24px;
+}
+
+.nav-itens svg {
+    width: 24px;
+    height: 24px;
+    transition: fill 0.3s ease;
+}
+
+.nav-itens svg path {
+    fill: var(--text-color-secondary);
+}
+
+.nav-itens svg:hover path,
+.nav-itens>a:hover{
+    fill: var(--brand-color);
+    color: var(--brand-color);
+    cursor: pointer;
+    text-decoration: underline;
+}
+main{
+    display: flex;
+    grid-template-columns: 75% 25%;
+    align-items: center;
+    padding: 0 80px;
+    justify-content: space-between;
+}
+
+.descrition-user{
+    display: flex;
+    max-width: 630px;
+    gap: 32px;
+    align-items: center;
+}
+
+
+#info{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 280px;
+}
+
+#info>li{
+    display: flex;
+    gap: 8px;
 }
