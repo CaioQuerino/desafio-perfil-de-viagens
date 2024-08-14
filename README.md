@@ -41,11 +41,6 @@ O CSS inclui:
 - **Estatísticas de Viagens**: Informações sobre a localização, número de países visitados e fotos compartilhadas.
 - **Galeria de Fotos**: Exibição de imagens relacionadas às viagens do usuário.
 
-## Como Utilizar
-
-1. **Visualizar o Perfil**: O perfil do usuário é exibido na seção principal com informações sobre suas viagens e uma foto de perfil.
-2. **Navegar na Galeria**: A galeria de fotos exibe imagens das viagens, organizadas em um layout responsivo.
-
 ## Acesse a Página
 
 Você pode visualizar o perfil de viagens através do seguinte link: [Perfil de Viagens](https://caioquerino.github.io/rocketseat-desafio-perfil-de-viagens/)
